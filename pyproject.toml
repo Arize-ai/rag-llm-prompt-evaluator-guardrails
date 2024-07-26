@@ -1,15 +1,16 @@
 [project]
-name = "validator-template"
+name = "rag-llm-prompt-evaluator"
 version = "0.0.0"
 description = "Template repo for Guardrails Hub validators."
 authors = [
-    {name = "Guardrails AI", email = "contact@guardrailsai.com"}
+    {name = "Julia Gomes", email = "julia@arize.com"}
 ]
 license = {file = "LICENSE"}
 readme = "README.md"
 requires-python = ">= 3.8.1"
 dependencies = [
-    "guardrails-ai>=0.4.0"
+    "guardrails-ai>=0.4.0",
+    "litellm=1.42.3"
 ]
 
 [project.optional-dependencies]
