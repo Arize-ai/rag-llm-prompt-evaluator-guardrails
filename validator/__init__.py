@@ -4,7 +4,6 @@ from .main import (
     HallucinationPrompt,
     QACorrectnessPrompt,
     LlmRagEvaluator,
-    ValidatorTemplate
 )
 
 __all__ = [
@@ -13,5 +12,4 @@ __all__ = [
     "HallucinationPrompt",
     "QACorrectnessPrompt",
     "LlmRagEvaluator",
-    "ValidatorTemplate"
 ]
